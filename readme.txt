@@ -33,5 +33,4 @@ git checkout -b <BRANCHNAME>
 # list of branches:
 git branch
 # rename branch currently on:
- git branch -m <NEWBRANCHNAME>
- 
+git branch -m <NEWBRANCHNAME>
