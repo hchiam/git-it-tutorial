@@ -39,5 +39,16 @@ git branch -m <NEWBRANCHNAME>
 git status
 # Pull in changes from a remote branch
 git fetch --dry-run
-# See changes to the remote before you pull in
+# See changes to the remote before you pull in (I used origin as <REMOTENAME>)
 git pull <REMOTENAME> <REMOTEBRANCH>
+
+# Merge a branch into current branch:
+git merge <BRANCHNAME>
+# Change the branch you're working on
+git checkout <BRANCHNAME>
+# Delete a local branch
+git branch -d <BRANCHNAME>
+# Delete a remote branch (I used origin as <REMOTENAME>:)
+git push <REMOTENAME> --delete <BRANCHNAME>
+# Pull from a remote branch
+git pull <REMOTENAME> <BRANCHNAME>
