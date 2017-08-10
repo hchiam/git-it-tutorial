@@ -34,3 +34,10 @@ git checkout -b <BRANCHNAME>
 git branch
 # rename branch currently on:
 git branch -m <NEWBRANCHNAME>
+
+# SEE/PULL COLLABORATOR CHANGES
+git status
+# Pull in changes from a remote branch
+git fetch --dry-run
+# See changes to the remote before you pull in
+git pull <REMOTENAME> <REMOTEBRANCH>
