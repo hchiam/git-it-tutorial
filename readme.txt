@@ -24,3 +24,14 @@ git push <REMOTENAME> <BRANCH>
 
 git remote add <REMOTENAME> <URL>
 git remote -v
+
+# BRANCHING:
+git branch <BRANCHNAME>
+git checkout <BRANCHNAME>
+# or just:
+git checkout -b <BRANCHNAME>
+# list of branches:
+git branch
+# rename branch currently on:
+ git branch -m <NEWBRANCHNAME>
+ 
