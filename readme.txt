@@ -16,6 +16,7 @@ git commit -m "<your commit message>"
 
 git config --global user.username <USerNamE>
 
+# SOME BRANCHING STUFF: (I used origin as <REMOTENAME>)
 git remote add <REMOTENAME> <URL>
 git remote set-url <REMOTENAME> <URL>
 git pull <REMOTENAME> <BRANCHNAME>
@@ -25,7 +26,7 @@ git push <REMOTENAME> <BRANCH>
 git remote add <REMOTENAME> <URL>
 git remote -v
 
-# BRANCHING:
+# MORE ON BRANCHING:
 git branch <BRANCHNAME>
 git checkout <BRANCHNAME>
 # or just:
